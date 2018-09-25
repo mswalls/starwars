@@ -1,23 +1,18 @@
 {
-  "name": "starwars",
+  "name": "starwars-express",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mswalls/starwars.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mswalls/starwars/issues"
-  },
-  "homepage": "https://github.com/mswalls/starwars#readme",
+  "main": "server.js",
   "dependencies": {
-    "express": "^4.16.3"
-  }
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
 }
